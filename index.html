@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <div class="chat-box">
+      <header>
+        <div class="info-bar">
+          <div class="info-bar__backspace">
+            <img src="assets/backarrow.svg" alt="" />
+          </div>
+          <div class="info-bar__user">
+            <span class="info-bar__user-name">슬기맘</span>
+            <span class="info-bar__user-temp">36.5°C</span>
+            <div class="info-bar__user-res">보통 1시간 이내 응답</div>
+          </div>
+          <div class="info-bar__call">
+            <img src="assets/phone.svg" alt="" />
+          </div>
+          <div class="info-bar__ellipsis">
+            <img src="assets/ellipsis.svg" alt="" />
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="item-info">
+          <img
+            class="item-info__img"
+            src="data:image/png;base64,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"
+            alt=""
+          />
+          <div class="item-info__text">
+            <div>유모차 팔아요</div>
+            <div>50,000원</div>
+          </div>
+        </div>
+        <div class="chat-content">
+          <div class="req-msg">
+            <div class="req-msg__time">오후 3:45</div>
+            <span class="req-msg__content">
+              오늘 시민공원 근처에서 7시에 가능하신가요?
+            </span>
+          </div>
+          <div class="res-msg">
+            <div class="res-msg__profile">
+              <img src="assets/profile.svg" alt="" />
+            </div>
+            <span class="res-msg__content">네 가능해요 그때 봐요!</span>
+            <div class="res-msg__time">오후 3:45</div>
+          </div>
+          <div class="chat-content__schedule">
+            <div class="chat-content__schedule-time">
+              <img src="assets/calendar.svg" alt="" />
+              <div>4월 28일(수) 오후 7:00</div>
+            </div>
+
+            <div class="chat-content__schedule-content">
+              슬기맘님이 거래 약속을 설정했어요.
+            </div>
+          </div>
+          <div class="chat-content__schedule__info">
+            약속 시간 30분 전에 슬기맘님에게 알림이 울릴거에요.
+          </div>
+          <span class="alert-popup">
+            <p>
+              <b>안내</b> 거래 약속 한 시간 전부터 '+ 버튼 > 통화'를 눌러
+              안심번호로 통화할 수 있어요. 내 전화번호는 표시되지 않아요!
+            </p>
+          </span>
+        </div>
+      </main>
+      <footer>
+        <div class="nav-bar">
+          <div class="spread-index">
+            <img src="assets/plus.svg" alt="" />
+          </div>
+          <input
+            class="vav-bar__input-msg"
+            type="text"
+            placeholder="메시지를 입력해주세요."
+          />
+          <div class="select-emotion">
+            <img src="assets/emotion.svg" alt="" />
+          </div>
+          <div class="send-msg">
+            <img src="assets/sendbtn.svg" alt="" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+footer {
+  width: 500px;
+  position: relative;
+  bottom: 0px;
+}
+
+.nav-bar {
+  position: relative;
+  bottom: -7px;
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gray;
+  height: 40px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.nav-bar img {
+  width: 20px;
+  height: 20px;
+}
+
+.vav-bar__input-msg {
+  border: none;
+  background-color: white;
+  width: 350px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+.select-emotion {
+  position: absolute;
+  bottom: 6px;
+  right: 75px;
+}
